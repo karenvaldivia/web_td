@@ -1,4 +1,4 @@
-	BODY RESET */
+/*BODY RESET */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,7 +20,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 *:focus {
-	outline: none;
+    outline: none!important;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -1219,6 +1219,12 @@ ul.teamtabs li.active {
 
 .tab_drawer_heading { display: none; }
 
+.tab1-equipo-slider {
+	margin-top: 50px;
+}
+.tab_container .tab_content {
+	padding-top: 60px;	
+}
 @media screen and (max-width: 480px) {
 	.teamtabs {
 		display: none;
