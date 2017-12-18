@@ -3,7 +3,8 @@ function menu(){
 	if($(this).scrollTop() > 10) {
 		$('.navbar').addClass('navbar-scroll').removeClass('navbar-start');
 		$('.navbar').css('background','white');
-		$('.navbar-nav li a').css('color','#31AAD5');
+		$('.navbar-nav li a').css('color','#24CCE1');
+		$('.navbar-brand').css('color','#24CCE1');
 
 		// $('.navbar-brand img').attr('src', 'images/km-logos/km-logo-negro.png');
 		// $('.navbar-toggle img').attr('src', 'images/km-navbar-mobile-negro.svg');
@@ -19,6 +20,7 @@ function menu(){
 		$('.navbar').addClass('navbar-start').removeClass('navbar-scroll');
 		$('.navbar').css('background','transparent');
 		$('.navbar-nav li a').css('color','white');
+		$('.navbar-brand').css('color','white');
 		// $('.nav>li>a:hover').css('color','red');
 
 		// $('.navbar-brand img').attr('src', 'images/km-logos/km-logo.png');
