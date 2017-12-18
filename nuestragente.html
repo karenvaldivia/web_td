@@ -7,8 +7,24 @@
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/lity.css">
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+		<style>
+			.popup-nuestra-gente{
+				color: #fff
+			}
+			.popup-text-green{
+				color: #00FAC4; 
+				font-family: 'Noto Serif'; 
+				font-style: italic;
+			}
+			.popup-nuestra-gente ul{
+				padding-left: 10px; 
+			}
+			.popup-nuestra-gente ul li{list-style-type: none; font-size: 11px}
+			.popup-nuestra-gente ul li:before{content: "-"; margin-right: 8px}
+		</style>
 	</head>
 	<body>
 		<!-- TD MENU -->
@@ -82,33 +98,51 @@
 									
 									<div class="tab1-equipo-slider">
 										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
+											<a href="#PopUpA" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
+											</a>
 										</div>
 										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
+											<a href="#PopUpB" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
+											</a>
 										</div>
 										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
-										</div>
-
-										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
-										</div>
-										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
-										</div>
-										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
+											<a href="#PopUpC" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
+											</a>	
 										</div>
 
 										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
+											<a href="#PopUpA" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
+											</a>
 										</div>
 										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
+											<a href="#PopUpB" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
+											</a>
 										</div>
 										<div>
-											<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
+											<a href="#PopUpC" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
+											</a>
+										</div>
+
+										<div>
+											<a href="#PopUpA" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
+											</a>
+										</div>
+										<div>
+											<a href="#PopUpB" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
+											</a>
+										</div>
+										<div>
+											<a href="#PopUpC" data-lity>
+												<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
+											</a>
 										</div>
 									</div>
 								</div>
@@ -138,11 +172,63 @@
 			</div>
 		</section>
 		<!-- END TD NUESTRO EQUIPO -->
+
+		<div id="PopUpA" class="lity-hide popup-nuestra-gente">
+			<div style="text-align: center;">
+				<img src="img/nuestragente/equipo-sergio/area-arquitectura/a.jpg">
+				<br>
+				<div style="padding: 20px 0;">
+					<span>Nombre de colaborador</span>
+					<p class="popup-text-green">asdfasdf asdfasdf asdfasdf asdfsdf</p>
+				</div>
+			</div>
+			<span style="font-size: 12px">Participo en:</span>
+			<ul>
+				<li>Virtual Coach</li>
+				<li>Ésika para ti</li>
+				<li>Somos Belcorp 3.0</li>
+			</ul>
+		</div>
 		
+		<div id="PopUpB" class="lity-hide popup-nuestra-gente">
+				<div style="text-align: center;">
+					<img src="img/nuestragente/equipo-sergio/area-arquitectura/b.jpg">
+					<br>
+					<div style="padding: 20px 0;">
+						<span>Nombre de colaborador</span>
+						<p class="popup-text-green">asdfasdf asdfasdf asdfasdf asdfsdf</p>
+					</div>
+				</div>
+				<span style="font-size: 12px">Participo en:</span>
+				<ul>
+					<li>Virtual Coach</li>
+					<li>Ésika para ti</li>
+					<li>Somos Belcorp 3.0</li>
+				</ul>
+		</div>
+
+		<div id="PopUpC" class="lity-hide popup-nuestra-gente">
+				<div style="text-align: center;">
+					<img src="img/nuestragente/equipo-sergio/area-arquitectura/c.jpg">
+					<br>
+					<div style="padding: 20px 0;">
+						<span>Nombre de colaborador</span>
+						<p class="popup-text-green">asdfasdf asdfasdf asdfasdf asdfsdf</p>
+					</div>
+				</div>
+				<span style="font-size: 12px">Participo en:</span>
+				<ul>
+					<li>Virtual Coach</li>
+					<li>Ésika para ti</li>
+					<li>Somos Belcorp 3.0</li>
+				</ul>
+			</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-		<script type="text/javascript" src="js/td.js"></script>
 		<script type="text/javascript" src="js/slick.min.js"></script>
+		<script type="text/javascript" src="js/lity.js"></script>
+		<script type="text/javascript" src="js/td.js"></script>
+		
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$('.tab1-equipo-slider').slick({
